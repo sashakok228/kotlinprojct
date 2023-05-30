@@ -15,6 +15,7 @@
         android:text="Kingdom of cum"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+
         />
     <androidx.appcompat.widget.AppCompatButton
         android:textAppearance="@style/osn_string"
@@ -24,6 +25,8 @@
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:background="@drawable/knopka"
+        android:textSize="10pt"
+        android:textColor="@color/black"
         android:text="Начать историю"
         />
     <androidx.appcompat.widget.AppCompatButton
@@ -33,6 +36,8 @@
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:background="@drawable/knopka"
+        android:textSize="10pt"
+        android:textColor="@color/black"
         android:text="Войти в аккаунт"
         />
     <androidx.appcompat.widget.AppCompatButton
@@ -43,6 +48,8 @@
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:background="@drawable/knopka"
+        android:textSize="10pt"
+        android:textColor="@color/black"
         android:text="Выйти"
         />
 </LinearLayout>
