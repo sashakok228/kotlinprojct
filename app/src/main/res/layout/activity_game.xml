@@ -27,6 +27,7 @@
                 android:orientation="vertical"
                 >
                 <ImageView
+                    android:background="@drawable/van"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_gravity="center"
@@ -48,6 +49,7 @@
                 android:orientation="vertical"
                 >
                 <ImageView
+                    android:background="@drawable/gym"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_gravity="center"
@@ -69,6 +71,7 @@
                 android:orientation="vertical"
                 >
                 <ImageView
+                    android:background="@drawable/dollar"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_gravity="center"
@@ -90,6 +93,7 @@
                 android:orientation="vertical"
                 >
                 <ImageView
+                    android:background="@drawable/billy"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_gravity="center"
@@ -140,18 +144,18 @@
             >
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/yes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-                android:text="Да"
-            android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/yes_button"
             />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Нет"
+                android:background="@drawable/button_no"
                 android:layout_marginLeft="60dp"
                 />
         </LinearLayout>
